@@ -1,0 +1,246 @@
+header{
+	width: 100%;
+	height: 590px;
+	background: url(../img/login-bg.png) center 95px no-repeat;
+	overflow: hidden;
+}
+header>nav{
+	width: 100%;
+	height: 90px;
+}
+header>nav>div{
+	margin: 0 auto;
+	width: 920px;
+}
+header>nav>div>img{
+	margin-top: 24px;
+}
+header>section{
+	width: 919px;
+    height: 500px;
+    border-bottom: 0;
+    position: relative;
+    margin: 0 auto;
+    background: url(../img/login-c.png)no-repeat 0px 5px;
+}
+header>section>div:first-child{
+	width: 365px;
+	height: 355px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -200px;
+	background: #fff;
+	padding: 5px;
+	opacity: 0.5;
+}
+#href{
+	width: 360px;
+	height: 350px;
+	background: #fff;
+	position: absolute;
+	right: 7px;
+	top: 57px;
+}
+#href>p{
+	width: 100%;
+}
+#href>p>a{
+	width: 122px;
+	float: left;
+	display: inline;
+	height: 40px;
+	margin: 10px 26px 0 26px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+#href>p:first-child>a:first-child{
+	border-bottom: 4px solid #f60;
+	font-weight: bold;
+}
+#href>div{
+	margin-top: 80px;
+	width: 300px;
+	height: 217px;
+	margin: 0 auto;
+	position: relative;
+}
+#href>div>div:first-child{
+	margin-top: 80px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+}
+#href>div>div:nth-child(2){
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+}
+#href>div>div>span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/ico_name.png)no-repeat center center;
+	float: left;
+}
+#href>div>div>input{
+	float: left;
+	width: 260px;
+	height: 37px;
+	border: 0;
+	line-height: 37px;
+	display: inline-block;
+	outline: none;
+}
+#a{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	margin-top: 20px;
+	background: #f60;
+	color: #fff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#href>div>p{
+	font-size: 12px;
+	margin-top: 15px;
+}
+#href>div>p>span:first-child>a{
+	color: #ed6d00;
+}
+#href>div>p>span:last-child{
+	float: right;
+}
+#href>p:last-child{
+	width: 300px;
+	height: 50px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-top: 1px solid #efefef;
+	line-height: 50px;
+	position: relative;
+	font-size: 12px
+}
+#href>p:last-child>a{
+	display: inline-block;
+	width: 22px;
+	height: 23px;
+	margin-right: 20px;
+	position: absolute;
+	top: 5px;
+	left: 60px;
+	background: url(../img/share_icon.jpg)no-repeat -44px 0px;
+}
+#href>p:last-child>a:nth-child(2){
+	position: absolute;
+	left: 90px;
+	background: url(../img/share_icon.jpg)no-repeat -66px 0px;
+}
+#href>p:last-child>a:nth-child(3){
+	position: absolute;
+	left: 120px;
+	background: url(../img/share_icon.jpg)no-repeat 0px 0px;
+}
+#content2{
+	width: 360px;
+	height: 350px;
+	background: #fff;
+	position: absolute;
+	right: 7px;
+	top: 57px;
+}
+#content2>p:first-child{
+	width: 100%;
+}
+#content2>p:first-child>a{
+	width: 122px;
+	float: left;
+	display: inline;
+	height: 40px;
+	margin: 10px 26px 0 26px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+#content2>p:first-child>a:last-child{
+	border-bottom: 4px solid #f60;
+	font-weight: bold;
+}
+#content2>div{
+	margin-top: 80px;
+	width: 100%;
+	height: 217px;
+	position: relative;
+}
+#content2>div>div{
+	margin: 0 auto;
+	width: 300px;
+	height: 217px;
+	background: url(../img/wxbg.jpg)no-repeat 67px 10px;
+}
+#content2>div>div>img{
+	text-align: center;
+	margin-top: 18px;
+	margin-left: 76px;
+}
+#content2>div>div>p{
+	text-align: center;
+	font-size: 12px;
+}
+#content2>div>div>p>a{
+	color: #ed6d00;
+	font-size: 12px;
+}
+#content2>p:last-child{
+	width: 300px;
+	height: 50px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-top: 1px solid #efefef;
+	line-height: 50px;
+	position: relative;
+	font-size: 12px;
+}
+#content2>p:last-child>a{
+	display: inline-block;
+	width: 22px;
+	height: 23px;
+	margin-right: 20px;
+	position: absolute;
+	top: 14px;
+	left: 80px;
+	background: url(../img/share_icon.jpg)no-repeat -44px 0px;
+}
+#content2>p:last-child>a:nth-child(2){
+	position: absolute;
+	left: 110px;
+	background: url(../img/share_icon.jpg)no-repeat -66px 0px;
+}
+#content2>p:last-child>a:nth-child(3){
+	position: absolute;
+	left: 140px;
+	background: url(../img/share_icon.jpg)no-repeat 0px 0px;
+}
+
+
+footer{
+	width: 100%;
+	height: auto;
+	padding: 25px 0 58px;
+}
+footer>p{
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+}
+footer>p{
+	margin: 5px 0 0 0;
+}
