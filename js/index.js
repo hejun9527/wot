@@ -127,7 +127,7 @@
           ulImgs.className="transition";
         }else{
           ulImgs.className="";
-          ulImgs.style.marginTOP=-DURATION*LICOUNT+"px";
+          ulImgs.style.marginTop=-DURATION*LICOUNT+"px";
           setTimeout(function(){
             moveTo(LICOUNT-1);
           },100);
@@ -162,6 +162,7 @@
     btnTop.onclick=function(){
       move(-1);
     }
+
     var interval=3000;
     var timer=setInterval(function(){
       moveTo()
@@ -220,4 +221,68 @@ pop.onmouseup=function(){
 
 
 
+(function(){
+  var i=0;
+     var LIWIDTH=250;
+     var DURATION=250;
+     var LICOUNT=4;
+     var bao=document.getElementById("bao");
+     function moveTo(to){
+       if(to==undefined){
+         to=i+1;
+       }
+       if(i==2){
+         if(to>i){
+          bao.className="transition";
+         }else{
+          bao.className="";
+          bao.style.marginLeft=-DURATION*LICOUNT+"px";
+           setTimeout(function(){
+             moveTo(LICOUNT-1);
+           },100);
+           return;
+         }
+       }
+       i=to;
+       bao.style.marginLeft=-i*DURATION+"px";
+       if(i==LICOUNT){
+         i=2;
+         setTimeout(function(){
+          bao.className="";
+          bao.style.marginLeft=0;
+         },LIWIDTH)
+       }
+     }
+     var btnLeft=document.getElementById("btn-left");
+     var btnRight=document.getElementById("btn-right");
+     var canClick=true;
+     btnRight.onclick=function(){
+       move(1)
+     }
+     function move(n){
+       if(canClick){
+         moveTo(i+1);
+         canClick=false;
+         setTimeout(function(){
+           canClick=true;
+         },LIWIDTH);
+       }
+     }
+     btnLeft.onclick=function(){
+       move(-1);
+     }
+     var interval=3000;
+     var timer=setInterval(function(){
+       moveTo()
+     },3000);
+     var lr=document.getElementById("left-right");
+     lr.onmouseover=function(){
+       clearInterval(timer);
+     }
+     lr.onmouseout=function(){
+       timer=setInterval(function(){
+         moveTo()
+       },3000);
+     }
+     }());
 

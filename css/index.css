@@ -1,7 +1,6 @@
 body{
 	position: relative;
 }
-/*红色框*/
 #fiex{
 	width: 161px;
 	height: 318px;
@@ -426,7 +425,7 @@ article{
 .video{
 	width: 1240px;
 	height: 622px;
-	background: red;
+	background: url(../img//script.png);
 	margin: 0 auto;
 	padding-top: 10px;
 }
@@ -451,13 +450,96 @@ article{
 
 
 
-
-
-
 .bottom{
 	width: 100%;
 	background: #1c1c1e;
 }
+.new{
+	width: 1240px;
+	height: 188px;
+	background-color: yellow;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.new>div:first-child{
+	width: 400px;
+	height: 188px;
+}
+.new>div:first-child>p:first-child{
+	font-size: 24px;
+   color: #ede7c8;
+	line-height: 49px;
+}
+.new>div:first-child>p:first-child>span{
+	display: inline-block;
+	width: 25px;
+	height: 24px;
+	background: url(../img/script.png)no-repeat -421px -47px;
+}
+.new>div:first-child>p:last-child{
+	display: flex;
+	justify-content: space-between;
+}
+.new>div:last-child{
+	width: 820px;
+	height: 188px;
+}
+.new>div:last-child>p:first-child{
+	color: #ede7c8;
+	line-height: 49px;
+}
+.new>div:last-child>p:first-child>span>a{
+	color: #ede7c8;
+}
+.new>div:last-child>p:first-child>span:first-child{
+	display: inline-block;
+	width: 28px;
+	height: 18px;
+	background: url(../img/script.png)no-repeat -399px -72px;
+}
+.new>div:last-child>p:first-child>span{
+	font-size: 24px;
+   color: #ede7c8;
+   margin-right: 5px;
+}
+.new>div:last-child>.p{
+	width: 820px;
+	height: 136px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.new>div:last-child>.p>span>a{
+	display: inline-block;
+	height: 136px;
+	width: 27px;
+}
+.new>div:last-child>.p>span:first-child>a{
+	background: url(../img/script.png)no-repeat -447px -71px;
+}
+.new>div:last-child>.p>span:last-child>a{
+	background: url(../img/script.png)no-repeat -474px -71px;
+}
+#bao{
+	background: aqua;
+	width: 1750px;
+	height: 136px;
+	overflow: hidden;
+}
+#bao>li{
+	width: 240px;
+	margin-right: 10px;
+	float: left;
+}
+.hidden{
+	width: 740px;
+	height: 136px;
+	overflow: hidden;
+}
+
+
+
 
 
 
@@ -465,7 +547,7 @@ article{
 .sele{
 	width: 1240px;
 	height: 328px;
-	margin: 0 auto;
+	margin: 20px auto;
 	display: flex;
 	justify-content: space-between;
 }
@@ -623,9 +705,6 @@ article{
 .sele>div:nth-child(2)>table>tbody>.tr{
 	color: #93907b;
 }
-
-
-
 .btn_ul{
 	width: 1240px;
 	height: 160px;
